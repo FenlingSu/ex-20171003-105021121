@@ -61,7 +61,7 @@ public class MainFrame extends JFrame {
                 char data[] = jtaL.getText().toCharArray();
                 int len = data.length;//,key = Integer.parseInt(jtf.getText());
                 for(int i =0;i<len;i++){
-                    data[i] +=Integer.parseInt((jtf.getText()));//key
+                    data[i] +=Integer.parseInt(jtf.getText());//key
                 }
                 jtaR.setText(new String(data));
             }
